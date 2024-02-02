@@ -367,7 +367,7 @@ class PhilipsTVLightEntity(PhilipsJsEntity, LightEntity):
         self._update_from_coordinator()
         self.async_write_ha_state()
 
-async def async_turn_off(self, **kwargs: Any) -> None:
+    async def async_turn_off(self, **kwargs: Any) -> None:
         """Turn of ambilight."""
 
         if not self._tv.on:
