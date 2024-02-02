@@ -1,6 +1,6 @@
 """The Philips TV constants."""
 
-DOMAIN = "fixed-philips_js"
+DOMAIN = "philips_js"
 CONF_SYSTEM = "system"
 CONF_ALLOW_NOTIFY = "allow_notify"
 
